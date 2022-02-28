@@ -1,0 +1,46 @@
+.table {
+    display: grid;
+   grid-template-columns: repeat (4, 1fr);
+    gap: 10px;
+    grid-template-rows:6;
+    padding: 10px;
+    margin:60px;
+    text-align:center;
+  }
+  .header{
+    background-color:green;
+    border: 1px solid;
+    grid-column: 1/5;
+    grid-row: 1/8;
+    
+  }
+  .content{
+    background-color:red;
+    border: 1px solid;
+    grid-column:1/4;
+    grid-row: 8/18;
+  
+    
+  }
+  .section{
+    background-color:orange;
+    border: 1px solid;
+    grid-column: 1/4;
+    grid-row:18/28;
+  
+  }
+  .sidebar{
+    background-color:blue;
+    border: 1px solid;
+    grid-column:4;
+    grid-row:8/28;
+    
+  }
+  .footer{
+    background-color:lime;
+    border: 1px solid;
+    grid-column: 1/5;
+    grid-row:28/35
+  
+  }
+  
